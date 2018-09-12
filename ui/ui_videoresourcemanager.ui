@@ -46,66 +46,6 @@
         <property name="rowCount">
          <number>0</number>
         </property>
-        <column>
-         <property name="text">
-          <string>name</string>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>path</string>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>start</string>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>end</string>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>cost</string>
-         </property>
-         <property name="font">
-          <font>
-           <pointsize>14</pointsize>
-           <weight>50</weight>
-           <bold>false</bold>
-          </font>
-         </property>
-        </column>
        </widget>
       </item>
       <item row="1" column="0">
