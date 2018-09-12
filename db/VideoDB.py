@@ -6,7 +6,7 @@ class Video:
 
     def __init__(self):
 
-        self.db_name = '..' + os.path.sep + 'video.db'
+        self.db_name = '.' + os.path.sep + 'video.db'
         self.video_info_table_name = 'video_info'
 
         self.conn = sqlite3.connect(self.db_name)
