@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import QWidget, QApplication, QTableWidgetItem, QMessageBox
 from PyQt5.Qt import QAbstractItemView
 
 import os
+import subprocess
 
 
 class VideoResourceManager(QWidget):
@@ -87,10 +88,10 @@ class VideoResourceManager(QWidget):
             return
 
         path = self.ui.videoInfoTableWidget.item(self.video_info_table_current_column, 1).text()
-        start = self.db.get_video_info_start(self.db.select_video_info_by_path(path))
+        start = self.ui.videoInfoTableWidget.item(self.video_info_table_current_column, 2).text()
         cmd = pot_player_exe_path + " " + path + " /seek=" + start
 
-        os.system(cmd)
+        subprocess.call(cmd)
 
     def refresh_video_info_table(self):
 
