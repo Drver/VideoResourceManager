@@ -46,6 +46,31 @@
         <property name="rowCount">
          <number>0</number>
         </property>
+        <column>
+         <property name="text">
+          <string>name</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>path</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>start</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>end</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>cost</string>
+         </property>
+        </column>
        </widget>
       </item>
       <item row="1" column="0">
