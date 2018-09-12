@@ -91,7 +91,7 @@ class VideoResourceManager(QWidget):
         start = self.ui.videoInfoTableWidget.item(self.video_info_table_current_column, 2).text()
         cmd = pot_player_exe_path + " " + path + " /seek=" + start
 
-        subprocess.call(cmd)
+        subprocess.Popen(cmd)
 
     def refresh_video_info_table(self):
 
