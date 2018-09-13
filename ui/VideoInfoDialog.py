@@ -54,7 +54,7 @@ class VideoInfoDialog(QDialog):
             QMessageBox.warning(self, "warning", "path: " + path + " is already in the db.")
         else:
             self.ui.pathLineEdit.setText(path)
-            name = path.split(os.path.sep)[len(path.split(os.path.sep)) - 1]
+            name = path.split("/")[len(path.split("/")) - 1]
             self.ui.nameLineEdit.setText(name)
             self.ui.okButton.setEnabled(True)
 
